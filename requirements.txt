@@ -1,0 +1,12 @@
+ultralytics
+roboflow
+pycocotools
+transformers
+timm
+accelerate
+torch
+torchvision
+pillow
+pyyaml
+pandas
+opencv-python
