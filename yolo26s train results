@@ -1,0 +1,17 @@
+EarlyStopping: Training stopped early as no improvement observed in last 20 epochs. Best results observed at epoch 58, best model saved as best.pt.
+To update EarlyStopping(patience=20) pass a new patience value, i.e. `patience=300` or use `patience=0` to disable EarlyStopping.
+
+78 epochs completed in 2.742 hours.
+Optimizer stripped from C:\projects\abandoned-luggage\Our Paper\runs\lug_yolo26s_s0\weights\last.pt, 20.3MB
+Optimizer stripped from C:\projects\abandoned-luggage\Our Paper\runs\lug_yolo26s_s0\weights\best.pt, 20.3MB
+
+Validating C:\projects\abandoned-luggage\Our Paper\runs\lug_yolo26s_s0\weights\best.pt...
+Ultralytics 8.4.183  Python-3.10.22 torch-2.11.0+cu128 CUDA:0 (NVIDIA GeForce RTX 3060, 12288MiB)
+YOLO26s summary (fused): 120 layers, 9,466,341 parameters, 0 gradients, 20.8 GFLOPs
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 100% ━━━━━━━━━━━━ 58/58 6.6it/s 8.8s
+                   all       1829       9304      0.779      0.733      0.791      0.536
+              backpack       1250       2432      0.784      0.757      0.813      0.557
+                   bag       1121       1856      0.713      0.622      0.681      0.434
+               trolley       1549       5016      0.841       0.82      0.878      0.617
+Speed: 0.1ms preprocess, 2.0ms inference, 0.0ms loss, 0.9ms postprocess per image
+Results saved to C:\projects\abandoned-luggage\Our Paper\runs\lug_yolo26s_s0
